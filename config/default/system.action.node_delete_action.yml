@@ -1,0 +1,13 @@
+uuid: a2197b05-a7e6-4897-af4e-bce903b5c908
+langcode: it
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: t43OqwzP3CTbcAagSsWKNy6KwMm_zShXo3c4-So6rQg
+id: node_delete_action
+label: 'Cancella il contenuto'
+type: node
+plugin: 'entity:delete_action:node'
+configuration: {  }

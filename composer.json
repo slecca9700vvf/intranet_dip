@@ -16,15 +16,37 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "*",
+        "drupal/better_exposed_filters": "^7.0",
+        "drupal/bootstrap_barrio": "^5.5",
+        "drupal/bootstrap_layout_builder": "^2.2",
+        "drupal/bootstrap_sass": "^5.0",
+        "drupal/bootstrap_styles": "^1.2",
+        "drupal/cas": "^2.3",
         "drupal/core-composer-scaffold": "^10.5",
         "drupal/core-project-message": "^10.5",
         "drupal/core-recommended": "^10.5",
+        "drupal/devel": "^5.3",
+        "drupal/eu_cookie_compliance": "^1.27",
+        "drupal/field_group": "^4.0",
+        "drupal/field_group_bootstrap": "^3.0",
+        "drupal/field_permissions": "^1.4",
+        "drupal/image_widget_crop": "^3.0",
+        "drupal/link_attributes": "^2.1",
+        "drupal/menu_item_extras": "^3.1",
         "drupal/paragraphs": "*",
+        "drupal/pathauto": "^1.13",
+        "drupal/rebuild_cache_access": "^1.12",
+        "drupal/redirect": "^1.11",
+        "drupal/scroll_top_button": "^2.1",
         "drupal/smtp": "*",
         "drupal/term_reference_tree": "*",
+        "drupal/token": "^1.15",
         "drupal/twig_tweak": "*",
         "drupal/twig_vardumper": "*",
+        "drupal/views_autocomplete_filters": "^2.0",
+        "drupal/webform": "^6.2",
         "drush/drush": "^13.6"
     },
     "conflict": {
@@ -35,11 +57,12 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true
         },
         "sort-packages": true
     },

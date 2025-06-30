@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: it
+uuid: d01502e7-c202-4156-8374-e34e98dc8251
+name: 'Intranet Dipartimento'
+mail: admin@admin.it
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: it
+mail_notification: null

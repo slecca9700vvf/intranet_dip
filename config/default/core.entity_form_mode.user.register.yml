@@ -1,0 +1,13 @@
+uuid: 3bf15bb9-69da-4e7a-9355-7f8c0fc4f00a
+langcode: it
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 5pE_4hurqtIlZN3XDi7eTo5RG13BMG0Rh9HYlRI3h8U
+id: user.register
+label: Registrati
+description: ''
+targetEntityType: user
+cache: true
