@@ -1,0 +1,19 @@
+uuid: cd40c037-239d-42af-8f12-79d7f1a34c2a
+langcode: it
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - footer
+    parent: 'main:'
+name: 'Home Page'
+type: home_page
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false
