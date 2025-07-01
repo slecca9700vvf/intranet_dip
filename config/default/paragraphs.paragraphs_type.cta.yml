@@ -1,0 +1,10 @@
+uuid: 64b01ce6-8073-4760-91c1-7a4b08728ec4
+langcode: it
+status: true
+dependencies: {  }
+id: cta
+label: CTA
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

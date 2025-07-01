@@ -1,0 +1,22 @@
+uuid: edbc70fc-64ae-4484-8bc8-69defc54f294
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.title_text
+  module:
+    - text
+id: paragraph.title_text.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: title_text
+label: Testo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

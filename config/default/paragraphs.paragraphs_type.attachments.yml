@@ -1,0 +1,10 @@
+uuid: 43a03446-f820-4c74-af13-1744b053f4b2
+langcode: it
+status: true
+dependencies: {  }
+id: attachments
+label: Allegati
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

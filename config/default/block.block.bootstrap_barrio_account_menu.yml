@@ -1,5 +1,5 @@
 uuid: 444f2b6d-cb0c-47d7-adab-2076be908191
-langcode: en
+langcode: it
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: 'User account menu'
+  label: 'Menu profilo utente'
   label_display: '0'
   provider: system
   level: 1

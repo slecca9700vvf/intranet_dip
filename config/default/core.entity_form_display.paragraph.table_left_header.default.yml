@@ -1,0 +1,24 @@
+uuid: 12faee32-1d68-4e82-bbf0-8226d313e3ff
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.table_left_header.field_table
+    - paragraphs.paragraphs_type.table_left_header
+  module:
+    - tablefield
+id: paragraph.table_left_header.default
+targetEntityType: paragraph
+bundle: table_left_header
+mode: default
+content:
+  field_table:
+    type: tablefield
+    weight: 0
+    region: content
+    settings:
+      input_type: textfield
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

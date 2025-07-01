@@ -1,0 +1,24 @@
+uuid: cce6c331-f486-4962-af33-a2a3c06b3fc5
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.table_top_header.field_table
+    - paragraphs.paragraphs_type.table_top_header
+  module:
+    - tablefield
+id: paragraph.table_top_header.default
+targetEntityType: paragraph
+bundle: table_top_header
+mode: default
+content:
+  field_table:
+    type: tablefield
+    label: above
+    settings:
+      row_header: true
+      column_header: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

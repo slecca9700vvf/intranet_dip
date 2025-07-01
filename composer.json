@@ -41,6 +41,7 @@
         "drupal/redirect": "^1.11",
         "drupal/scroll_top_button": "^2.1",
         "drupal/smtp": "*",
+        "drupal/tablefield": "^3.0",
         "drupal/term_reference_tree": "*",
         "drupal/token": "^1.15",
         "drupal/twig_tweak": "*",

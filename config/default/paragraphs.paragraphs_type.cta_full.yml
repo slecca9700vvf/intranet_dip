@@ -1,0 +1,10 @@
+uuid: faaa4000-5987-4f49-b971-ce8ba2b578d4
+langcode: it
+status: true
+dependencies: {  }
+id: cta_full
+label: 'CTA Full'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

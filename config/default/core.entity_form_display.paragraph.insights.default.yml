@@ -1,0 +1,25 @@
+uuid: ca676ef5-bd71-4b64-9bdc-d38d1099532a
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.insights.field_links
+    - paragraphs.paragraphs_type.insights
+  module:
+    - link
+id: paragraph.insights.default
+targetEntityType: paragraph
+bundle: insights
+mode: default
+content:
+  field_links:
+    type: link_default
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

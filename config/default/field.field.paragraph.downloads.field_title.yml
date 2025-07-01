@@ -1,0 +1,19 @@
+uuid: 182b76e1-732f-4f24-8bd2-cdc72371f92b
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.downloads
+id: paragraph.downloads.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: downloads
+label: Titolo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

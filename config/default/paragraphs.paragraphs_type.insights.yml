@@ -1,0 +1,10 @@
+uuid: 565f13bd-73f7-46f2-9b87-301c4f590a0e
+langcode: it
+status: true
+dependencies: {  }
+id: insights
+label: Approfondimenti
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

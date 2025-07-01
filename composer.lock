@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7a13b2f7ef24dd3a1c74b96323479a5",
+    "content-hash": "1ee1d037e1856fe40d79a8542072900c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3521,6 +3521,94 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/smtp",
                 "issues": "https://www.drupal.org/project/issues/smtp"
+            }
+        },
+        {
+            "name": "drupal/tablefield",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tablefield.git",
+                "reference": "3.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/tablefield-3.0.0.zip",
+                "reference": "3.0.0",
+                "shasum": "a43507eb3b3f4ba2f6889d62cc53883272b1ec52"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.0",
+                    "datestamp": "1742478991",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "colan",
+                    "homepage": "https://www.drupal.org/user/58704"
+                },
+                {
+                    "name": "dsnopek",
+                    "homepage": "https://www.drupal.org/user/266527"
+                },
+                {
+                    "name": "erutan",
+                    "homepage": "https://www.drupal.org/user/726248"
+                },
+                {
+                    "name": "guilherme-lima-almeida",
+                    "homepage": "https://www.drupal.org/user/3636010"
+                },
+                {
+                    "name": "jenlampton",
+                    "homepage": "https://www.drupal.org/user/85586"
+                },
+                {
+                    "name": "jeroent",
+                    "homepage": "https://www.drupal.org/user/2228934"
+                },
+                {
+                    "name": "Kevin Hankens",
+                    "homepage": "https://www.drupal.org/user/78090"
+                },
+                {
+                    "name": "liam morland",
+                    "homepage": "https://www.drupal.org/user/493050"
+                },
+                {
+                    "name": "lolandese",
+                    "homepage": "https://www.drupal.org/user/210402"
+                },
+                {
+                    "name": "mayurjadhav",
+                    "homepage": "https://www.drupal.org/user/2266604"
+                },
+                {
+                    "name": "Stockticker",
+                    "homepage": "https://www.drupal.org/user/3544586"
+                },
+                {
+                    "name": "vitalie",
+                    "homepage": "https://www.drupal.org/user/175134"
+                }
+            ],
+            "description": "Defines a generic tabular data field.",
+            "homepage": "https://www.drupal.org/project/tablefield",
+            "support": {
+                "source": "https://git.drupalcode.org/project/tablefield"
             }
         },
         {

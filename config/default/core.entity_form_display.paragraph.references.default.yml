@@ -1,0 +1,34 @@
+uuid: bc192577-d982-48e8-81c7-df41e1345b6b
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.references.field_links
+    - field.field.paragraph.references.field_title
+    - paragraphs.paragraphs_type.references
+  module:
+    - link
+id: paragraph.references.default
+targetEntityType: paragraph
+bundle: references
+mode: default
+content:
+  field_links:
+    type: link_default
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
