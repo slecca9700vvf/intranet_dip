@@ -1,0 +1,9 @@
+uuid: 5c5c992e-f4e5-4943-aeba-65e2cb27c1cf
+langcode: it
+status: true
+dependencies: {  }
+name: 'Ufficio - Tipologia'
+vid: office_type
+description: null
+weight: -5
+new_revision: false

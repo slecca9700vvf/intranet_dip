@@ -1,0 +1,9 @@
+uuid: dff6ae35-2ca9-4f37-875c-6d701bd207b6
+langcode: it
+status: true
+dependencies: {  }
+name: 'Sede - Tipologia'
+vid: headquarter_type
+description: null
+weight: -6
+new_revision: false

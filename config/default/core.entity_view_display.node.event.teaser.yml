@@ -1,18 +1,21 @@
-uuid: 91c0f7d3-7869-46ba-8fcb-938b88ee637a
+uuid: d18db678-8375-4dd1-a026-e37395961bc6
 langcode: it
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.home_page.body
-    - field.field.node.home_page.field_media_image
-    - node.type.home_page
+    - field.field.node.event.body
+    - field.field.node.event.field_end_date_hour
+    - field.field.node.event.field_media_image
+    - field.field.node.event.field_paragraphs
+    - field.field.node.event.field_start_date_hour
+    - node.type.event
   module:
     - text
     - user
-id: node.home_page.teaser
+id: node.event.teaser
 targetEntityType: node
-bundle: home_page
+bundle: event
 mode: teaser
 content:
   body:
@@ -29,5 +32,8 @@ content:
     weight: 100
     region: content
 hidden:
+  field_end_date_hour: true
   field_media_image: true
+  field_paragraphs: true
+  field_start_date_hour: true
   langcode: true

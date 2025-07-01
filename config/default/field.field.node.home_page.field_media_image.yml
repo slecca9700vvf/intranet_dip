@@ -1,13 +1,13 @@
-uuid: 6e3a5f18-91f7-41f5-9f35-aed7abe253ca
+uuid: d76d6ce7-da82-42aa-a999-a36da12e9d4a
 langcode: it
 status: true
 dependencies:
   config:
-    - field.storage.node.field_field_media_image
+    - field.storage.node.field_media_image
     - media.type.image
     - node.type.home_page
-id: node.home_page.field_field_media_image
-field_name: field_field_media_image
+id: node.home_page.field_media_image
+field_name: field_media_image
 entity_type: node
 bundle: home_page
 label: 'Immagine di copertina'

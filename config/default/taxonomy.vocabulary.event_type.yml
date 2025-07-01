@@ -1,0 +1,9 @@
+uuid: a33e6c06-d2c5-490a-9d5a-87c0a46765d1
+langcode: it
+status: true
+dependencies: {  }
+name: 'Evento - Tipologia'
+vid: event_type
+description: null
+weight: -8
+new_revision: false

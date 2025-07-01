@@ -1,0 +1,76 @@
+uuid: a36463a5-b1db-44d9-a2a9-77cad8fc44ec
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_faq
+    - paragraphs.paragraphs_type.faq
+    - paragraphs.paragraphs_type.faqs
+  module:
+    - entity_reference_revisions
+id: paragraph.faqs.field_faq
+field_name: field_faq
+entity_type: paragraph
+bundle: faqs
+label: FAQ
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      faq: faq
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 17
+        enabled: false
+      accordion_group:
+        weight: 18
+        enabled: false
+      attachments:
+        weight: 19
+        enabled: false
+      cta:
+        weight: 20
+        enabled: false
+      cta_full:
+        weight: 21
+        enabled: false
+      downloads:
+        weight: 22
+        enabled: false
+      faq:
+        weight: 23
+        enabled: true
+      faqs:
+        weight: 24
+        enabled: false
+      insights:
+        weight: 25
+        enabled: false
+      link:
+        weight: 26
+        enabled: false
+      photo_gallery:
+        weight: 27
+        enabled: false
+      references:
+        weight: 28
+        enabled: false
+      table_left_header:
+        weight: 29
+        enabled: false
+      table_top_header:
+        weight: 30
+        enabled: false
+      title_text:
+        weight: 31
+        enabled: false
+      title_text_image:
+        weight: 32
+        enabled: false
+field_type: entity_reference_revisions

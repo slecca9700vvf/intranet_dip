@@ -1,0 +1,15 @@
+uuid: a33209f6-5b7c-4150-9c9e-fc4606621e97
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorate
+    - user.role.anonymous
+id: central_directorate-anonymous
+label: Anonimo
+weight: -102
+admin: false
+scope: outsider
+global_role: anonymous
+group_type: central_directorate
+permissions: {  }

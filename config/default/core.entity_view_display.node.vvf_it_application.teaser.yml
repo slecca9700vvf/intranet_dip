@@ -1,0 +1,43 @@
+uuid: 8589f577-90d5-4c96-abb8-085d773a2fb0
+langcode: it
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.vvf_it_application.body
+    - field.field.node.vvf_it_application.field_app_development_state
+    - field.field.node.vvf_it_application.field_app_state
+    - field.field.node.vvf_it_application.field_app_type
+    - field.field.node.vvf_it_application.field_end_date
+    - field.field.node.vvf_it_application.field_paragraphs
+    - field.field.node.vvf_it_application.field_start_date
+    - node.type.vvf_it_application
+  module:
+    - text
+    - user
+id: node.vvf_it_application.teaser
+targetEntityType: node
+bundle: vvf_it_application
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_app_development_state: true
+  field_app_state: true
+  field_app_type: true
+  field_end_date: true
+  field_paragraphs: true
+  field_start_date: true
+  langcode: true

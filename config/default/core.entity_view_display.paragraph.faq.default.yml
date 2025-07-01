@@ -1,0 +1,50 @@
+uuid: ea1f4603-5e52-47bf-b7d1-549514a0eeaa
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.faq.field_faq_answer
+    - field.field.paragraph.faq.field_faq_category
+    - field.field.paragraph.faq.field_faq_question
+    - field.field.paragraph.faq.field_paragraphs
+    - paragraphs.paragraphs_type.faq
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.faq.default
+targetEntityType: paragraph
+bundle: faq
+mode: default
+content:
+  field_faq_answer:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_faq_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_faq_question:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: f2ad5c67-5694-4676-a998-58cb0ff895b2
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_end_date
+    - node.type.vvf_it_application
+  module:
+    - datetime
+id: node.vvf_it_application.field_end_date
+field_name: field_end_date
+entity_type: node
+bundle: vvf_it_application
+label: 'Data Fine'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

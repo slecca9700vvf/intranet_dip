@@ -1,18 +1,23 @@
-uuid: a2252cfb-9ad0-4a72-bc21-7c6e954b8494
+uuid: 0769a8f8-2d34-4be2-966f-1794ea68b946
 langcode: it
 status: true
 dependencies:
   config:
-    - field.field.node.home_page.body
-    - field.field.node.home_page.field_media_image
-    - node.type.home_page
+    - field.field.node.event.body
+    - field.field.node.event.field_end_date_hour
+    - field.field.node.event.field_media_image
+    - field.field.node.event.field_paragraphs
+    - field.field.node.event.field_start_date_hour
+    - node.type.event
   module:
+    - datetime
     - media_library
+    - paragraphs
     - path
     - text
-id: node.home_page.default
+id: node.event.default
 targetEntityType: node
-bundle: home_page
+bundle: event
 mode: default
 content:
   body:
@@ -31,12 +36,42 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_end_date_hour:
+    type: datetime_default
+    weight: 126
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_media_image:
     type: media_library_widget
     weight: 123
     region: content
     settings:
       media_types: {  }
+    third_party_settings: {  }
+  field_paragraphs:
+    type: paragraphs
+    weight: 124
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_start_date_hour:
+    type: datetime_default
+    weight: 125
+    region: content
+    settings: {  }
     third_party_settings: {  }
   langcode:
     type: language_select

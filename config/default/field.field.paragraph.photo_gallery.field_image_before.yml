@@ -1,0 +1,21 @@
+uuid: 54321b3c-642a-4453-a2e3-9285371f1199
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_before
+    - paragraphs.paragraphs_type.photo_gallery
+id: paragraph.photo_gallery.field_image_before
+field_name: field_image_before
+entity_type: paragraph
+bundle: photo_gallery
+label: 'Mostra prima le immagini'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Acceso
+  off_label: Spento
+field_type: boolean

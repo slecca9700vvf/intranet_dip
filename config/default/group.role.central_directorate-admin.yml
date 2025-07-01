@@ -1,0 +1,14 @@
+uuid: 0126aaef-da1b-4c95-a7ce-a3c434cafa19
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorate
+id: central_directorate-admin
+label: Admin
+weight: 100
+admin: true
+scope: individual
+global_role: null
+group_type: central_directorate
+permissions: {  }

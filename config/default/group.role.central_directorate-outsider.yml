@@ -1,0 +1,15 @@
+uuid: 3a196685-0c3d-41ef-90a8-455f0c725ea5
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorate
+    - user.role.authenticated
+id: central_directorate-outsider
+label: Outsider
+weight: -101
+admin: false
+scope: outsider
+global_role: authenticated
+group_type: central_directorate
+permissions: {  }

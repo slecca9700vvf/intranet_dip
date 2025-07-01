@@ -1,0 +1,15 @@
+uuid: 4ab4658a-1e63-4056-9249-870db34d9058
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorate
+    - user.role.authenticated
+id: central_directorate-member
+label: Member
+weight: -100
+admin: false
+scope: insider
+global_role: authenticated
+group_type: central_directorate
+permissions: {  }

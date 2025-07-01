@@ -1,0 +1,10 @@
+uuid: 54cba8e9-9dfb-4007-a6e4-688e01d5aa60
+langcode: it
+status: true
+dependencies: {  }
+id: photo_gallery
+label: 'Galleria Fotografica'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

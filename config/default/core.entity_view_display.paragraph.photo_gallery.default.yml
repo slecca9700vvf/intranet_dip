@@ -1,0 +1,43 @@
+uuid: a9b0f3d9-9de5-41cf-a8a0-118b04873b18
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.photo_gallery.field_image_before
+    - field.field.paragraph.photo_gallery.field_images
+    - field.field.paragraph.photo_gallery.field_video
+    - paragraphs.paragraphs_type.photo_gallery
+id: paragraph.photo_gallery.default
+targetEntityType: paragraph
+bundle: photo_gallery
+mode: default
+content:
+  field_image_before:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_images:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_video:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

@@ -1,0 +1,11 @@
+uuid: 044d530f-6daa-4b5e-9b7d-99389caa19f0
+langcode: it
+status: true
+dependencies: {  }
+id: central_directorate
+label: 'Direzione Centrale'
+description: ''
+new_revision: true
+creator_membership: false
+creator_wizard: true
+creator_roles: {  }

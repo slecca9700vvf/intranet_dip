@@ -1,0 +1,22 @@
+uuid: 6e192529-d53e-474b-b1cd-2aded7113e4b
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_faq_question
+    - paragraphs.paragraphs_type.faq
+  module:
+    - text
+id: paragraph.faq.field_faq_question
+field_name: field_faq_question
+entity_type: paragraph
+bundle: faq
+label: Domanda
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

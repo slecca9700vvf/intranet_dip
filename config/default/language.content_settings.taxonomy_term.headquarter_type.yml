@@ -1,0 +1,11 @@
+uuid: 03293707-4deb-4695-ae23-d679134e1959
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.headquarter_type
+id: taxonomy_term.headquarter_type
+target_entity_type_id: taxonomy_term
+target_bundle: headquarter_type
+default_langcode: site_default
+language_alterable: false

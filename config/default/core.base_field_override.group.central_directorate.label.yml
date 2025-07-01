@@ -1,0 +1,18 @@
+uuid: 21ccfb66-0543-4ced-9595-c0990b60da2d
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorate
+id: group.central_directorate.label
+field_name: label
+entity_type: group
+bundle: central_directorate
+label: Titolo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

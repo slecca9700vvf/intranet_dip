@@ -1,0 +1,21 @@
+uuid: c522aa66-310b-488c-a9e2-7d1e50a278b9
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_start_date_hour
+    - node.type.event
+  module:
+    - datetime
+id: node.event.field_start_date_hour
+field_name: field_start_date_hour
+entity_type: node
+bundle: event
+label: 'Data Ora Inizio'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

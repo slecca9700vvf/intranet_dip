@@ -1,0 +1,15 @@
+uuid: 83135271-7f36-44d4-8f0a-144964d2a1c9
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorate
+    - user.role.administrator
+id: central_directorate-admin_out
+label: Amministratore
+weight: 101
+admin: true
+scope: outsider
+global_role: administrator
+group_type: central_directorate
+permissions: {  }

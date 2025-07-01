@@ -56,7 +56,6 @@ module:
   rebuild_cache_access: 0
   search: 0
   shortcut: 0
-  subgroup: 0
   system: 0
   tablefield: 0
   tablefield_cellspan: 0

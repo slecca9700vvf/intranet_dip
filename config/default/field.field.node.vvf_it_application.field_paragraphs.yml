@@ -1,0 +1,82 @@
+uuid: 9b5c3d63-3a40-4fde-9bc2-ff776b2a869d
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.vvf_it_application
+    - paragraphs.paragraphs_type.attachments
+    - paragraphs.paragraphs_type.cta_full
+    - paragraphs.paragraphs_type.downloads
+    - paragraphs.paragraphs_type.faqs
+  module:
+    - entity_reference_revisions
+id: node.vvf_it_application.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: vvf_it_application
+label: Paragrafi
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      attachments: attachments
+      cta_full: cta_full
+      downloads: downloads
+      faqs: faqs
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 15
+        enabled: false
+      accordion_group:
+        weight: 16
+        enabled: false
+      attachments:
+        weight: 17
+        enabled: true
+      cta:
+        weight: 18
+        enabled: false
+      cta_full:
+        weight: 19
+        enabled: true
+      downloads:
+        weight: 20
+        enabled: true
+      faq:
+        weight: 22
+        enabled: false
+      faqs:
+        weight: 24
+        enabled: true
+      insights:
+        weight: 21
+        enabled: false
+      link:
+        weight: 22
+        enabled: false
+      photo_gallery:
+        weight: 23
+        enabled: false
+      references:
+        weight: 24
+        enabled: false
+      table_left_header:
+        weight: 25
+        enabled: false
+      table_top_header:
+        weight: 26
+        enabled: false
+      title_text:
+        weight: 27
+        enabled: false
+      title_text_image:
+        weight: 28
+        enabled: false
+field_type: entity_reference_revisions

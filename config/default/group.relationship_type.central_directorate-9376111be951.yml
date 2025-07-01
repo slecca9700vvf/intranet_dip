@@ -1,0 +1,15 @@
+uuid: 35ca26e4-52e5-48be-be89-14872550149a
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorate
+  module:
+    - user
+id: central_directorate-9376111be951
+group_type: central_directorate
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

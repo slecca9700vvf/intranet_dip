@@ -1,0 +1,29 @@
+uuid: 1cf0b807-5ca3-482c-8bfb-0accfab04473
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_app_development_state
+    - node.type.vvf_it_application
+    - taxonomy.vocabulary.vvf_it_application_deploy_state
+id: node.vvf_it_application.field_app_development_state
+field_name: field_app_development_state
+entity_type: node
+bundle: vvf_it_application
+label: 'Stato Sviluppi'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vvf_it_application_deploy_state: vvf_it_application_deploy_state
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

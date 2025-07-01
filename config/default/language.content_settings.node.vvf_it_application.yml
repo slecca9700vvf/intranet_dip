@@ -1,0 +1,11 @@
+uuid: 6a869e78-1ace-40d8-92c3-24d57f1ba096
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.vvf_it_application
+id: node.vvf_it_application
+target_entity_type_id: node
+target_bundle: vvf_it_application
+default_langcode: site_default
+language_alterable: false
